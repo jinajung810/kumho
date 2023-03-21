@@ -147,7 +147,8 @@ background: #333; display: none; }
 .product {width: 100%;background: #EFEFEF;height: 1450px;}
 .product .brand-menu {position: absolute;left: 0;top: 150px;width: 300px;}
 .product .brand-menu h2 {
-    font-size: 60px;line-height: 1.2;color:#FF7A00;
+    font-size: 60px;line-height: 1.2;
+    /* color:#FF7A00; */
     margin-bottom: 100px; font-weight: 300;
     
 }
