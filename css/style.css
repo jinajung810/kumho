@@ -146,22 +146,21 @@ background: #333; display: none; }
 
 .product {width: 100%;background: #EFEFEF;height: 1450px;}
 .product .brand-menu {position: absolute;left: 0;top: 150px;width: 300px;}
-.product .brand-menu h2 {
+/* .product .brand-menu h2 {
     font-size: 60px;line-height: 1.2;
-    /* color:#FF7A00; */
+    color:#FF7A00;
     margin-bottom: 100px; font-weight: 300;
-    
-}
-.product .brand-menu h2 span {margin-left: 50px;font-weight: 600;}
+} */
+/* .product .brand-menu h2 span {margin-left: 50px;font-weight: 600;} */
 .product .brand-menu h2::after {
     content: ""; display:inline-block;
     width: 1px;height: 730px;background:#FF7A00;
     position: absolute;left: 340px;top: 0;
 }
-.product .brand-menu ul li {
+/* .product .brand-menu ul li {
     margin-bottom: 20px; margin-left: 20px;
     position: relative;
-}
+} */
 .product .brand-menu ul li:nth-child(1):after {
     content: ""; display: block;
     width: 150px; height: 1px; background:#FF7A00;
@@ -187,7 +186,7 @@ background: #333; display: none; }
     width: 100px; height: 1px; background:#FF7A00;
     position: absolute; left: 220px;top: 30px;
 }
-.product .brand-menu ul li a {font-size: 36px;color:#575757}
+/* .product .brand-menu ul li a {font-size: 36px;color:#575757} */
 .product .brand-menu ul li a:hover {color:#FF7A00}
 .product .left {position: absolute;left: 400px;top: 140px;}
 .product .left ul li {position: relative; margin-bottom: 33px;overflow: hidden;}
